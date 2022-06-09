@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E6AB3FF-EEC1-4E8E-8865-09199B7E8B69}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>nMain</RootNamespace>
+    <AssemblyName>nMain</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nLibary">
+      <HintPath>..\nLibary\bin\Debug\nLibary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Design\DataBase\frmData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DataBase\frmData.Designer.cs">
+      <DependentUpon>frmData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\DataBase\frmDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DataBase\frmDelete.Designer.cs">
+      <DependentUpon>frmDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\DataBase\frmInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DataBase\frmInsert.Designer.cs">
+      <DependentUpon>frmInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\DataBase\frmRunning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DataBase\frmRunning.Designer.cs">
+      <DependentUpon>frmRunning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\DataBase\frmSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DataBase\frmSelect.Designer.cs">
+      <DependentUpon>frmSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\DataBase\frmUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DataBase\frmUpdate.Designer.cs">
+      <DependentUpon>frmUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmButton.Designer.cs">
+      <DependentUpon>frmButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmCheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmCheckBox.Designer.cs">
+      <DependentUpon>frmCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmComboBox.Designer.cs">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmData.Designer.cs">
+      <DependentUpon>frmData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmDataGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmDataGridView.Designer.cs">
+      <DependentUpon>frmDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmDataSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmDataSet.Designer.cs">
+      <DependentUpon>frmDataSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmDateTimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmDateTimePicker.Designer.cs">
+      <DependentUpon>frmDateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmListBox.Designer.cs">
+      <DependentUpon>frmListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmListView.Designer.cs">
+      <DependentUpon>frmListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmMain_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmMain_2.Designer.cs">
+      <DependentUpon>frmMain_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmMonthCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmMonthCalendar.Designer.cs">
+      <DependentUpon>frmMonthCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmPictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmPictureBox.Designer.cs">
+      <DependentUpon>frmPictureBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmRadio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmRadio.Designer.cs">
+      <DependentUpon>frmRadio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmTabControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmTabControl.Designer.cs">
+      <DependentUpon>frmTabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmTextbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Toolbox\frmTextbox.Designer.cs">
+      <DependentUpon>frmTextbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Design\DataBase\frmData.resx">
+      <DependentUpon>frmData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DataBase\frmDelete.resx">
+      <DependentUpon>frmDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DataBase\frmInsert.resx">
+      <DependentUpon>frmInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DataBase\frmRunning.resx">
+      <DependentUpon>frmRunning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DataBase\frmSelect.resx">
+      <DependentUpon>frmSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DataBase\frmUpdate.resx">
+      <DependentUpon>frmUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmButton.resx">
+      <DependentUpon>frmButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmCheckBox.resx">
+      <DependentUpon>frmCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmComboBox.resx">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmData.resx">
+      <DependentUpon>frmData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmDataGridView.resx">
+      <DependentUpon>frmDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmDataSet.resx">
+      <DependentUpon>frmDataSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmDateTimePicker.resx">
+      <DependentUpon>frmDateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmListBox.resx">
+      <DependentUpon>frmListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmListView.resx">
+      <DependentUpon>frmListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmMain_2.resx">
+      <DependentUpon>frmMain_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmMonthCalendar.resx">
+      <DependentUpon>frmMonthCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmPictureBox.resx">
+      <DependentUpon>frmPictureBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmRadio.resx">
+      <DependentUpon>frmRadio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmTabControl.resx">
+      <DependentUpon>frmTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Toolbox\frmTextbox.resx">
+      <DependentUpon>frmTextbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

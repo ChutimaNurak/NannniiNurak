@@ -1,0 +1,9 @@
+D:\Chutima\JOB\NannniiNurak\nLibary\obj\Debug\nLibary.csproj.AssemblyReference.cache
+D:\Chutima\JOB\NannniiNurak\nLibary\obj\Debug\nLibary.Properties.Resources.resources
+D:\Chutima\JOB\NannniiNurak\nLibary\obj\Debug\nLibary.csproj.GenerateResource.cache
+D:\Chutima\JOB\NannniiNurak\nLibary\obj\Debug\nLibary.csproj.CoreCompileInputs.cache
+D:\Chutima\JOB\NannniiNurak\nLibary\bin\Debug\nLibary.pdb
+D:\Chutima\JOB\NannniiNurak\nLibary\obj\Debug\nLibary.pdb
+D:\Chutima\JOB\NannniiNurak\nLibary\bin\Debug\nLibary.dll.config
+D:\Chutima\JOB\NannniiNurak\nLibary\bin\Debug\nLibary.dll
+D:\Chutima\JOB\NannniiNurak\nLibary\obj\Debug\nLibary.dll
