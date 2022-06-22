@@ -26,3 +26,12 @@ D:\Chutima\JOB\NannniiNurak\nMain\obj\Debug\nMain.Design.Toolbox.frmTextbox.reso
 D:\Chutima\JOB\NannniiNurak\nMain\obj\Debug\nMain.Properties.Resources.resources
 D:\Chutima\JOB\NannniiNurak\nMain\obj\Debug\nMain.csproj.GenerateResource.cache
 D:\Chutima\JOB\NannniiNurak\nMain\obj\Debug\nMain.csproj.CoreCompileInputs.cache
+D:\Chutima\JOB\NannniiNurak\nMain\bin\Debug\nMain.exe.config
+D:\Chutima\JOB\NannniiNurak\nMain\bin\Debug\nMain.exe
+D:\Chutima\JOB\NannniiNurak\nMain\bin\Debug\nMain.pdb
+D:\Chutima\JOB\NannniiNurak\nMain\bin\Debug\nLibary.dll
+D:\Chutima\JOB\NannniiNurak\nMain\bin\Debug\nLibary.pdb
+D:\Chutima\JOB\NannniiNurak\nMain\bin\Debug\nLibary.dll.config
+D:\Chutima\JOB\NannniiNurak\nMain\obj\Debug\nMain.csproj.CopyComplete
+D:\Chutima\JOB\NannniiNurak\nMain\obj\Debug\nMain.exe
+D:\Chutima\JOB\NannniiNurak\nMain\obj\Debug\nMain.pdb
